@@ -1,0 +1,4 @@
+lpips>=0.1.4
+scikit-image>=0.21
+torchmetrics[image]>=1.3
+torch-fidelity>=0.3.0
