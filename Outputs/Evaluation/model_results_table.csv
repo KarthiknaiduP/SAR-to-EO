@@ -1,0 +1,6 @@
+model,model_name,checkpoint,checkpoint_epoch,count,parameters_millions,psnr,ssim,mae,lpips,fid,milliseconds_per_image
+model_1_unet_l1,unet_l1,/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_1_unet_l1/checkpoints/best.pt,11,200,54.412483,13.987056524346455,0.2114561941847205,0.1645326305925846,0.8579053901135921,nan,217.19893243462138
+model_2_pix2pix,pix2pix,/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_2_pix2pix/checkpoints/best.pt,9,200,54.412483,12.833122076151371,0.11132859183475376,0.18250767920166255,0.6151222138106823,nan,224.82934461077093
+model_3_pix2pix_perceptual,pix2pix_perceptual,/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_3_pix2pix_perceptual/checkpoints/best.pt,24,200,54.412483,13.148785098284739,0.1516574110276997,0.18165312863886357,0.708713014125824,nan,360.76250133512076
+model_4_attention_resunet,attention_resunet,/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_4_attention_resunet/checkpoints/best.pt,4,200,51.336137,13.993510342543392,0.19147453568875789,0.16564515572041272,0.9267963719367981,nan,268.8402353649144
+model_5_final_fusion_gan,final_fusion_gan,/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_5_final_fusion_gan/checkpoints/best.pt,8,200,51.336137,13.963073430900879,0.20408062398433685,0.1643062371760607,0.9166273647546768,nan,262.171763315564
