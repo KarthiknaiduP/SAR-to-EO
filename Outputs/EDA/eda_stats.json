@@ -1,0 +1,68 @@
+{
+  "data_root": "/kaggle/input/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain/v_2",
+  "total_pairs": 16000,
+  "unique_scenes": 32,
+  "split_counts": {
+    "train": 10775,
+    "test": 2711,
+    "val": 2514
+  },
+  "terrain_counts": {
+    "grassland": 4000,
+    "agri": 4000,
+    "urban": 4000,
+    "barrenland": 4000
+  },
+  "resolution_counts": {
+    "256x256": 16000
+  },
+  "statistical_sample_count": 1000,
+  "scene_patch_count": {
+    "minimum": 18,
+    "maximum": 1370,
+    "mean": 500.0
+  },
+  "sample_statistics": {
+    "sar_mean": 0.5243554271310568,
+    "sar_std": 0.1785933517292142,
+    "rgb_channel_means": {
+      "r_mean": 0.340311663559638,
+      "g_mean": 0.3571461244914681,
+      "b_mean": 0.3113891403004527
+    },
+    "eo_brightness": 0.3362823110334575,
+    "sar_entropy": 7.370785766239229,
+    "eo_entropy": 7.028901139552471
+  },
+  "split_verification": {
+    "scene_counts": {
+      "train": 22,
+      "val": 5,
+      "test": 5
+    },
+    "overlaps": {
+      "train_val": [],
+      "train_test": [],
+      "val_test": []
+    },
+    "passed": true
+  },
+  "quality": {
+    "pairs_audited": 16000,
+    "audit_is_complete": true,
+    "missing_eo_pairs": 0,
+    "corrupt_images": [],
+    "pair_shape_mismatches": [],
+    "exact_duplicate_groups": [
+      [
+        "/kaggle/input/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain/v_2/agri/s1/ROIs1970_fall_s1_115_p61.png",
+        "/kaggle/input/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain/v_2/grassland/s1/ROIs1970_fall_s1_115_p61.png"
+      ],
+      [
+        "/kaggle/input/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain/v_2/agri/s2/ROIs1970_fall_s2_115_p61.png",
+        "/kaggle/input/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain/v_2/grassland/s2/ROIs1970_fall_s2_115_p61.png"
+      ]
+    ],
+    "exact_duplicate_group_count": 2
+  }
+}
