@@ -1,0 +1,6 @@
+model,model_name,checkpoint,checkpoint_epoch,count,parameters_millions,psnr,ssim,mae,lpips,fid,milliseconds_per_image
+ablation_final_full,final_fusion_gan,/kaggle/working/sar2eo_outputs/ablation_final_full/checkpoints/best.pt,1,200,51.336137,13.818616041240421,0.1860426223836839,0.17265800960361957,nan,nan,10.097760365001704
+ablation_final_no_attention,final_fusion_gan,/kaggle/working/sar2eo_outputs/ablation_final_no_attention/checkpoints/best.pt,1,200,51.269315,13.942291497512565,0.19372409723699094,0.16979352045804263,nan,nan,7.92271154999753
+ablation_final_no_perceptual,final_fusion_gan,/kaggle/working/sar2eo_outputs/ablation_final_no_perceptual/checkpoints/best.pt,1,200,51.336137,13.585482595453687,0.16380117688328028,0.17499249927699567,nan,nan,8.01247470500357
+ablation_final_no_feature_matching,final_fusion_gan,/kaggle/working/sar2eo_outputs/ablation_final_no_feature_matching/checkpoints/best.pt,1,200,51.336137,13.811684888344743,0.18756411738693715,0.1727960677444935,nan,nan,8.006116760002442
+ablation_final_no_gradient,final_fusion_gan,/kaggle/working/sar2eo_outputs/ablation_final_no_gradient/checkpoints/best.pt,1,200,51.336137,13.82695348462527,0.17783018020913005,0.17225993555039168,nan,nan,7.9973859350002385
