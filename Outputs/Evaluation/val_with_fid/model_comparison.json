@@ -1,0 +1,72 @@
+[
+  {
+    "model": "model_1_unet_l1",
+    "model_name": "unet_l1",
+    "checkpoint": "/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_1_unet_l1/checkpoints/best.pt",
+    "checkpoint_epoch": 11,
+    "count": 200,
+    "parameters_millions": 54.412483,
+    "psnr": 12.730246520355458,
+    "ssim": 0.17144300892949105,
+    "mae": 0.2025294469296932,
+    "lpips": 0.8724168390035629,
+    "fid": 369.88818359375,
+    "milliseconds_per_image": 214.84315371998946
+  },
+  {
+    "model": "model_2_pix2pix",
+    "model_name": "pix2pix",
+    "checkpoint": "/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_2_pix2pix/checkpoints/best.pt",
+    "checkpoint_epoch": 9,
+    "count": 200,
+    "parameters_millions": 54.412483,
+    "psnr": 11.585485274116277,
+    "ssim": 0.08664376717060804,
+    "mae": 0.22526971746236085,
+    "lpips": 0.6085817101597786,
+    "fid": 268.1534423828125,
+    "milliseconds_per_image": 306.1701278149758
+  },
+  {
+    "model": "model_3_pix2pix_perceptual",
+    "model_name": "pix2pix_perceptual",
+    "checkpoint": "/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_3_pix2pix_perceptual/checkpoints/best.pt",
+    "checkpoint_epoch": 24,
+    "count": 200,
+    "parameters_millions": 54.412483,
+    "psnr": 12.28182864170306,
+    "ssim": 0.13200818879529833,
+    "mae": 0.21153935946524144,
+    "lpips": 0.6978470242023468,
+    "fid": 249.7336883544922,
+    "milliseconds_per_image": 248.59861502498916
+  },
+  {
+    "model": "model_4_attention_resunet",
+    "model_name": "attention_resunet",
+    "checkpoint": "/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_4_attention_resunet/checkpoints/best.pt",
+    "checkpoint_epoch": 4,
+    "count": 200,
+    "parameters_millions": 51.336137,
+    "psnr": 12.420918009829402,
+    "ssim": 0.15584932163357734,
+    "mae": 0.21309396859258414,
+    "lpips": 0.967065095603466,
+    "fid": 348.37664794921875,
+    "milliseconds_per_image": 255.1745448349766
+  },
+  {
+    "model": "model_5_final_fusion_gan",
+    "model_name": "final_fusion_gan",
+    "checkpoint": "/Users/karthik/Downloads/sar2eocode/sar2eo_outputs/model_5_final_fusion_gan/checkpoints/best.pt",
+    "checkpoint_epoch": 8,
+    "count": 200,
+    "parameters_millions": 51.336137,
+    "psnr": 12.272698882391701,
+    "ssim": 0.161760036572814,
+    "mae": 0.21803589399904014,
+    "lpips": 0.9558810904622078,
+    "fid": 387.8331604003906,
+    "milliseconds_per_image": 252.7840440550017
+  }
+]
