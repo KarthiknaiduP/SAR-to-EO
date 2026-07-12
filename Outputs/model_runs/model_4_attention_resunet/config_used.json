@@ -1,0 +1,22 @@
+{
+  "model_name": "attention_resunet",
+  "run_name": "model_4_attention_resunet",
+  "manifest": "/kaggle/working/sar2eo_outputs/manifest.csv",
+  "out_dir": "/kaggle/working/sar2eo_outputs",
+  "epochs": 30,
+  "batch_size": 4,
+  "num_workers": 2,
+  "image_size": 256,
+  "base_channels": 64,
+  "train_limit": 8000,
+  "val_limit": 1000,
+  "learning_rate": 0.0002,
+  "lambda_l1": 100.0,
+  "lambda_perceptual": 10.0,
+  "lambda_feature_matching": 10.0,
+  "lambda_cycle": 10.0,
+  "gan_mode": "hinge",
+  "attention": true,
+  "amp": true,
+  "seed": 42
+}
