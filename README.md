@@ -4,6 +4,8 @@ This repository contains a research-style SAR-to-EO image translation project de
 
 The project studies paired Sentinel-1 SAR and Sentinel-2 optical image translation through a progressive sequence of generative models rather than a single fixed architecture.
 
+Hugging Face repo: [(https://huggingface.co/Karthiko18/SAR-TO-EO)](https://huggingface.co/Karthiko18/SAR-TO-EO)
+
 ## What is included
 
 ```text
