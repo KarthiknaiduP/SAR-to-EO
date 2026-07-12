@@ -1,0 +1,66 @@
+{
+  "model": "model_1_unet_l1",
+  "worst_terrain_by_ssim": "urban",
+  "correlations": {
+    "sar_mean_vs_ssim": -0.4084206612867941,
+    "sar_mean_vs_mae": 0.05870939505056011,
+    "sar_std_vs_ssim": -0.41173513114727556,
+    "sar_std_vs_mae": 0.31002948389106466,
+    "eo_brightness_vs_ssim": -0.33776984267866067,
+    "eo_brightness_vs_mae": 0.5594476732195149,
+    "eo_contrast_vs_ssim": -0.25996135951487637,
+    "eo_contrast_vs_mae": 0.3780967037694433,
+    "eo_edge_density_vs_ssim": -0.8544752875094083,
+    "eo_edge_density_vs_mae": 0.22997788368800337
+  },
+  "worst_examples": [
+    {
+      "scene_id": "urban/ROIs1970_fall_50",
+      "terrain": "urban",
+      "ssim": 0.033294156193733215,
+      "psnr": 11.914241857170097
+    },
+    {
+      "scene_id": "urban/ROIs1970_fall_50",
+      "terrain": "urban",
+      "ssim": 0.04199150204658508,
+      "psnr": 12.640936885341409
+    },
+    {
+      "scene_id": "urban/ROIs1970_fall_50",
+      "terrain": "urban",
+      "ssim": 0.04517252370715141,
+      "psnr": 12.228020579444847
+    },
+    {
+      "scene_id": "urban/ROIs1970_fall_50",
+      "terrain": "urban",
+      "ssim": 0.046682875603437424,
+      "psnr": 12.972334991122986
+    },
+    {
+      "scene_id": "urban/ROIs1970_fall_47",
+      "terrain": "urban",
+      "ssim": 0.049610596150159836,
+      "psnr": 11.527671835146691
+    },
+    {
+      "scene_id": "urban/ROIs1970_fall_50",
+      "terrain": "urban",
+      "ssim": 0.05024075508117676,
+      "psnr": 12.796581907964795
+    },
+    {
+      "scene_id": "urban/ROIs1970_fall_50",
+      "terrain": "urban",
+      "ssim": 0.05219229683279991,
+      "psnr": 12.361472560980353
+    },
+    {
+      "scene_id": "urban/ROIs1970_fall_50",
+      "terrain": "urban",
+      "ssim": 0.054814547300338745,
+      "psnr": 13.690344666918772
+    }
+  ]
+}
